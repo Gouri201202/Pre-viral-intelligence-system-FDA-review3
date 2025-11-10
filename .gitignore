@@ -1,0 +1,33 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv1/
+.venv1/
+
+# Data files
+data/raw/*
+data/processed/*
+*.csv
+*.json
+
+# Logs
+logs/*.log
+
+# Model files (they'll auto-download)
+data/models/*.bin
+data/models/*.safetensors
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
